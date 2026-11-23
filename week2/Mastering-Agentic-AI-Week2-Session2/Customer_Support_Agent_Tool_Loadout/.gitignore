@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# uv / virtualenv
+.venv/
+
+# Environment & secrets
+.env
+
+# Vector store (rebuilt on demand)
+.chroma_tools/

@@ -1,0 +1,17 @@
+[project]
+name = "customer-support-agent-tool-loadout"
+version = "0.1.0"
+description = "Tool Loadout demo: dynamically select relevant tools for a support agent via semantic search."
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.0",
+    "langchain>=1.0,<2.0",
+    "langchain-chroma>=0.2",
+    "langchain-core>=1.0,<2.0",
+    "langchain-openai>=0.3",
+    "langgraph>=1.0,<2.0",
+    "langsmith>=0.3.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+]
